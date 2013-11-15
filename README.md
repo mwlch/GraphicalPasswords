@@ -1,11 +1,25 @@
-GraphicalPasswords
-==================
+# Graphical Passwords
 
-Some graphical password schemes for android smartphones
+Implementation of some graphical password schemes for android smartphones.
 
 
-Licence
-=======
+These implementations form the basis for the study in the following paper:
+
+>  Schaub, F., Walch, M., Könings, B., & Weber, M. (2013, July).<br>
+>  [Exploring the design space of graphical passwords on smartphones](http://dl.acm.org/citation.cfm?id=2501615).<br>
+>  In Proceedings of the Ninth Symposium on Usable Privacy and Security (p. 11). ACM.<br>
+>  [[PDF]](http://cups.cs.cmu.edu/soups/2013/proceedings/a11_Schaub.pdf)
+
+## Graphical Password Schemes
+
+- Pass-Go
+- TAPI
+- UYI
+- (PIN)
+
+
+
+## Licence
 
     Copyright 2013 Marcel Walch
 
