@@ -21,7 +21,7 @@ These implementations form the basis for the study in the following paper:
 
 ## Licence
 
-    Copyright 2013 Marcel Walch
+    Copyright 2013 Marcel Walch, Florian Schaub
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
