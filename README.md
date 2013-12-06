@@ -12,16 +12,18 @@ These implementations form the basis for the study in the following paper:
 
 ## Graphical Password Schemes
 
-- Pass-Go
-- TAPI
-- UYI
-- (PIN)
+- Open Pass-Go
+>  <b>REFERENCE</b>
+>  H. Tao and C. Adams. 
+>  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords. 
+>  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
+- ...
 
 
 
 ## Licence
 
-    Copyright 2013 Marcel Walch
+    Copyright 2013 Marcel Walch, Florian Schaub
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
