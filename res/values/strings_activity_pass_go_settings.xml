@@ -1,0 +1,44 @@
+<resources>
+
+    <string name="title_activity_pass_go_settings">Pass-Go: Settings</string>
+
+    <string name="pref_header_passgo">Pass-Go</string>
+    <string name="pref_title_length">Password length</string>
+
+    <string-array name="pref_passgo_length_titles">
+        <item>2 lines</item>
+        <item>3 lines</item>
+        <item>4 lines</item>
+        <item>5 lines</item>
+        <item>6 lines</item>
+        <item>7 lines</item>
+        <item>8 lines</item>
+        <item>9 lines</item>
+        <item>10 lines</item>
+        <item>11 lines</item>
+        <item>12 lines</item>
+    </string-array>
+    <string-array name="pref_passgo_length_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+
+</resources>

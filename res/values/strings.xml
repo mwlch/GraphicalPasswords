@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity Strings -->
+    <string name="app_name">Graphical Passwords</string>
+    <string name="intro">This app contains several graphical password schemes. The goal of the app is to enable the user to discover the usability of graphical passwords.</string>
+    <string name="intro_attention">Passwords are stored in plain text!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- general-purpose Strings -->
+    <string name="btn_create_password">Create password</string>
+    <string name="btn_enter_password">Enter password</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_clearall">Clear all</string>
+    <string name="msg_pw_correct">Password correct!</string>
+    <string name="msg_pw_wrong">Wrong password!</string>
+
+    <!-- Open Pass-Go Strings -->
+    <string name="title_activity_pass_go">Open Pass-Go</string>
+    <string name="title_activity_pass_go_create_password">Open Pass-Go: Create Password</string>
+    <string name="title_activity_pass_go_login">Open Pass-Go: Enter Password</string>
+    <string name="title_dialog_pass_go_createpw">Select pattern</string>
+    <string name="msg_dialog_pass_go_createpw">Please draw your desired pattern in the given grid.\n Your pattern has to contain %d line segments and / or dots.</string>
+    <string name="msg_dialog_pass_go_deletepattern">Do you really want to delete the pattern?</string>
+    <string name="title_dialog_pass_go_rememberpw">Please memorize the pattern</string>
+
+    <!-- Papers -->
+    <string name="paper_check_out">Check out our paper</string>
+    <string name="paper_references">REFERENCES</string>
+    <string name="paper_pass_go">H. Tao and C. Adams. Pass-Go: A Proposal to Improve the Usability of Graphical Passwords. <i>Int. J. Network Security</i>, 7(2):273–292, 2008.</string>
+	<string name="paper_exploring_designspace">F. Schaub, M. Walch, B. Könings, and M. Weber. Exploring the design space of graphical passwords on smartphones. In <i>Proc. SOUPS \'13</i>. ACM, 2013.</string>
+</resources>

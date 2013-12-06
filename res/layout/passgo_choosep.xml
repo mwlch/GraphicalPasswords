@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/passgo_relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/passgo_buttontable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="10px"
+        android:paddingTop="10px"
+        android:stretchColumns="0,1" >
+
+        <TableRow >
+            <Button
+                android:id="@+id/passgo_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:onClick="clearAll"
+                android:text="Clear All" />
+            
+            <Button
+                android:id="@+id/passgo_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_menu_login"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="submit"
+                android:text="Fertig" />
+        </TableRow>
+    </TableLayout>
+
+    <de.uniulm.graphicalpasswords.passgo.view.PatternView
+        android:id="@+id/passgo_patternview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/passgo_buttontable"
+        android:padding="10px" />
+
+</RelativeLayout>
