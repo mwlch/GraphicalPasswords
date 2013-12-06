@@ -13,11 +13,11 @@ These implementations form the basis for the study in the following paper:
 ## Graphical Password Schemes
 
 - Open Pass-Go
->  <b>REFERENCE</b>
->  H. Tao and C. Adams. 
->  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords. 
->  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
-- ...
+
+    >  <b>REFERENCE</b><br>
+    >  H. Tao and C. Adams.<br> 
+    >  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords.<br>
+    >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
 
 
 
