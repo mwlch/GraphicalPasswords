@@ -22,6 +22,7 @@
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
@@ -64,6 +65,33 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.passgo.PassGoActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.tapi.TAPIActivity"
+            android:label="@string/title_activity_tapi" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.tapi.TAPICreatePasswordActivity"
+            android:label="@string/title_activity_tapi_create_password" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.tapi.TAPILoginActivity"
+            android:label="@string/title_activity_tapi_login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+        </activity>
+        <activity android:name="de.uulm.graphicalpasswords.tapi.TAPISettingsActivity">
+            android:label="@string/title_activity_tapi_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
         </activity>
     </application>
 

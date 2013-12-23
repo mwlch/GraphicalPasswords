@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.uulm.graphicalpasswords.passgo;
+package de.uulm.graphicalpasswords.tapi;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -33,7 +33,6 @@ import android.support.v4.app.NavUtils;
 import java.util.List;
 
 import de.uulm.graphicalpasswords.R;
-import de.uulm.graphicalpasswords.tapi.TAPIActivity;
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On
@@ -46,7 +45,7 @@ import de.uulm.graphicalpasswords.tapi.TAPIActivity;
  * href="http://developer.android.com/guide/topics/ui/settings.html">Settings
  * API Guide</a> for more information on developing a Settings UI.
  */
-public class PassGoSettingsActivity extends PreferenceActivity implements
+public class TAPISettingsActivity extends PreferenceActivity implements
 		OnSharedPreferenceChangeListener {
 	/**
 	 * Determines whether to always show the simplified settings UI, where
@@ -113,12 +112,12 @@ public class PassGoSettingsActivity extends PreferenceActivity implements
 		// use the older PreferenceActivity APIs.
 
 		// Add preferences.
-		addPreferencesFromResource(R.xml.pref_passgo);
+		addPreferencesFromResource(R.xml.pref_tapi);
 
 		// Bind the summaries of EditText/List/Dialog/Ringtone preferences to
 		// their values. When their values change, their summaries are updated
 		// to reflect the new value, per the Android Design guidelines.
-		bindPreferenceSummaryToValue(findPreference("passgo_length"));
+		bindPreferenceSummaryToValue(findPreference("tapi_length"));
 	}
 
 	/** {@inheritDoc} */
@@ -217,16 +216,16 @@ public class PassGoSettingsActivity extends PreferenceActivity implements
 		@Override
 		public void onCreate(Bundle savedInstanceState) {
 			super.onCreate(savedInstanceState);
-			addPreferencesFromResource(R.xml.pref_passgo);
+			addPreferencesFromResource(R.xml.pref_tapi);
 
 			// Bind the summaries of EditText/List/Dialog/Ringtone preferences
 			// to their values. When their values change, their summaries are
 			// updated to reflect the new value, per the Android Design
 			// guidelines.
-			bindPreferenceSummaryToValue(findPreference("passgo_length"));
+			bindPreferenceSummaryToValue(findPreference("tapi_length"));
 		}
 	}
-	
+
 	@Override
 	protected void onResume() {
 		super.onResume();
@@ -245,9 +244,9 @@ public class PassGoSettingsActivity extends PreferenceActivity implements
 	@Override
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
-		if (key.equals("passgo_length")) {
+		if (key.equals("tapi_length")) {
 			SharedPreferences.Editor editor = sharedPreferences.edit();
-			editor.remove("passgo_pw");
+			editor.remove("tapi_pw");
 			editor.commit();
 		}
 	}

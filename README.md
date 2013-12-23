@@ -19,6 +19,13 @@ These implementations form the basis for the study in the following paper:
     >  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords.<br>
     >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
 
+- Open TAPI
+
+    >  <b>REFERENCE</b><br>
+    >  J. Citty and D. R. Hutchings.<br> 
+    >  TAPI: touch–screen authentication using partitioned images.<br>
+    >  Tech. Report 2010–1, Elon University, 2010.
+
 
 
 ## Licence

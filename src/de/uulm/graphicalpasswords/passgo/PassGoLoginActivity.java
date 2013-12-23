@@ -93,7 +93,6 @@ public class PassGoLoginActivity extends Activity implements PassGo {
 	}
 
 	public void clearAll(View view) {
-		System.out.println("clear all");
 		patternView.clear();
 	}
 

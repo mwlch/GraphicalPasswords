@@ -35,24 +35,17 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
-	
-	public void startPassGo(View view){
-		Intent intent = new Intent(this, de.uulm.graphicalpasswords.passgo.PassGoActivity.class);
+
+	public void startPassGo(View view) {
+		Intent intent = new Intent(this,
+				de.uulm.graphicalpasswords.passgo.PassGoActivity.class);
 		startActivity(intent);
 	}
-	
-//	public void startUYI(View view){
-//		Intent intent = new Intent(this, de.uulm.graphicalpasswords.uyi.UYIMainActivity.class);
-//		startActivity(intent);
-//	}
-//	
-//	public void startTAPI(View view){
-//		Intent intent = new Intent(this, de.uulm.graphicalpasswords.tapi.TAPIMainActivity.class);
-//		startActivity(intent);
-//	}
-//	
-//	public void startPIN(View view){
-//		Intent intent = new Intent(this, de.uulm.graphicalpasswords.pin.PINMainActivity.class);
-//		startActivity(intent);
-//	}
+
+	public void startTAPI(View view) {
+		Intent intent = new Intent(this,
+				de.uulm.graphicalpasswords.tapi.TAPIActivity.class);
+		startActivity(intent);
+	}
+
 }
