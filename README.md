@@ -3,7 +3,7 @@
 Implementation of some graphical password schemes for android smartphones.
 
 
-These implementations form the basis for the study in the following paper:
+We used these implementations for our study in the following paper:
 
 >  Schaub, F., Walch, M., Könings, B., & Weber, M. (2013, July).<br>
 >  [Exploring the design space of graphical passwords on smartphones](http://dl.acm.org/citation.cfm?id=2501615).<br>
@@ -26,7 +26,12 @@ These implementations form the basis for the study in the following paper:
     >  TAPI: touch–screen authentication using partitioned images.<br>
     >  Tech. Report 2010–1, Elon University, 2010.
 
+- Open Use Your Illusion (UYI)
 
+    >  <b>REFERENCE</b><br>
+    >  E. Hayashi, R. Dhamija, N. Christin, and A. Perrig.<br> 
+    >  Use Your Illusion: secure authentication usable anywhere.<br>
+    >  In <i>Proc. SOUPS '08</i>. ACM, 2008.
 
 ## Licence
 

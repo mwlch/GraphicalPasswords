@@ -16,13 +16,14 @@
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="de.uulm.graphicalpasswords"
-    android:versionCode="1"
-    android:versionName="0.1" >
+    android:versionCode="3"
+    android:versionName="0.3" >
 
     <uses-sdk
         android:minSdkVersion="11"
         android:targetSdkVersion="15" />
-    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -87,11 +88,39 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
         </activity>
-        <activity android:name="de.uulm.graphicalpasswords.tapi.TAPISettingsActivity">
+        <activity android:name="de.uulm.graphicalpasswords.tapi.TAPISettingsActivity" >
             android:label="@string/title_activity_tapi_settings" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.uyi.UYIActivity"
+            android:label="@string/title_activity_uyi" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.uyi.UYICreatePasswordActivity"
+            android:label="@string/title_activity_uyicreate_password" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.uyi.UYILoginActivity"
+            android:label="@string/title_activity_uyilogin" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.uyi.UYISettingsActivity"
+            android:label="@string/title_activity_uyi_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
         </activity>
     </application>
 

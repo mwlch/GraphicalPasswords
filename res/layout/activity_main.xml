@@ -78,6 +78,13 @@
                 android:layout_height="wrap_content"
                 android:onClick="startTAPI"
                 android:text="@string/title_activity_tapi" />
+
+            <Button
+                android:id="@+id/uyi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startUYI"
+                android:text="@string/title_activity_uyi" />
         </LinearLayout>
     </ScrollView>
 

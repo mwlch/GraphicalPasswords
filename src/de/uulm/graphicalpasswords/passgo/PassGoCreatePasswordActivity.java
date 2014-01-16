@@ -129,7 +129,7 @@ public class PassGoCreatePasswordActivity extends Activity implements PassGo {
 			String message = getString(
 					R.string.msg_dialog_pass_go_createpw,
 					getArguments().getInt("length"));
-			builder.setTitle(R.string.title_activity_pass_go_create_password)
+			builder.setTitle(R.string.title_dialog_pass_go_createpw)
 					.setMessage(message)
 					.setNeutralButton(R.string.btn_ok, new OnClickListener() {
 

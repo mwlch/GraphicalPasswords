@@ -15,8 +15,7 @@
 -->
 <resources>
 
-    <string name="title_activity_tapi_settings">Pass-Go: Settings</string>
-
+    <string name="title_activity_tapi_settings">Open TAPI: Settings</string>
     <string name="pref_header_tapi">Open TAPI</string>
 
     <string-array name="pref_tapi_length_titles">

@@ -54,7 +54,7 @@ public class PassGoSettingsActivity extends PreferenceActivity implements
 	 * as a master/detail two-pane view on tablets. When true, a single pane is
 	 * shown on tablets.
 	 */
-	private static final boolean ALWAYS_SIMPLE_PREFS = false;
+	private static final boolean ALWAYS_SIMPLE_PREFS = true;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -208,25 +208,6 @@ public class PassGoSettingsActivity extends PreferenceActivity implements
 						""));
 	}
 
-	/**
-	 * This fragment shows data and sync preferences only. It is used when the
-	 * activity is showing a two-pane settings UI.
-	 */
-	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
-	public static class DataSyncPreferenceFragment extends PreferenceFragment {
-		@Override
-		public void onCreate(Bundle savedInstanceState) {
-			super.onCreate(savedInstanceState);
-			addPreferencesFromResource(R.xml.pref_passgo);
-
-			// Bind the summaries of EditText/List/Dialog/Ringtone preferences
-			// to their values. When their values change, their summaries are
-			// updated to reflect the new value, per the Android Design
-			// guidelines.
-			bindPreferenceSummaryToValue(findPreference("passgo_length"));
-		}
-	}
-	
 	@Override
 	protected void onResume() {
 		super.onResume();

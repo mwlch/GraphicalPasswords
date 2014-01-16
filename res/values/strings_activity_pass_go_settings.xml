@@ -15,10 +15,9 @@
 -->
 <resources>
 
-    <string name="title_activity_pass_go_settings">Pass-Go: Settings</string>
+    <string name="title_activity_pass_go_settings">Open Pass-Go: Settings</string>
 
     <string name="pref_header_passgo">Open Pass-Go</string>
-    <string name="pref_title_length">Password length</string>
 
     <string-array name="pref_passgo_length_titles">
         <item>2 lines</item>

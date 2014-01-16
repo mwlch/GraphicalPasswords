@@ -143,7 +143,7 @@ public class TAPICreatePasswordActivity extends Activity implements
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.tapicreate_password, menu);
+		getMenuInflater().inflate(R.menu.tapi_create_password, menu);
 		return true;
 	}
 
@@ -226,7 +226,7 @@ public class TAPICreatePasswordActivity extends Activity implements
 			AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 			String message = getString(R.string.msg_dialog_tapi_createpw,
 					getArguments().getInt("length"));
-			builder.setTitle(R.string.title_activity_tapi_create_password)
+			builder.setTitle(R.string.title_dialog_tapi_createpw)
 					.setMessage(message)
 					.setNeutralButton(R.string.btn_ok, new OnClickListener() {
 

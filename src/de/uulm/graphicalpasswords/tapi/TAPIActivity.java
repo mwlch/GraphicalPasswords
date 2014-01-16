@@ -15,9 +15,6 @@
  ******************************************************************************/
 package de.uulm.graphicalpasswords.tapi;
 
-import java.util.Arrays;
-import java.util.Random;
-
 import de.uulm.graphicalpasswords.R;
 import android.os.Bundle;
 import android.preference.PreferenceManager;

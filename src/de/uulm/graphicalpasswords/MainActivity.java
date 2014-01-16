@@ -47,5 +47,11 @@ public class MainActivity extends Activity {
 				de.uulm.graphicalpasswords.tapi.TAPIActivity.class);
 		startActivity(intent);
 	}
+	
+	public void startUYI(View view) {
+		Intent intent = new Intent(this,
+				de.uulm.graphicalpasswords.uyi.UYIActivity.class);
+		startActivity(intent);
+	}
 
 }

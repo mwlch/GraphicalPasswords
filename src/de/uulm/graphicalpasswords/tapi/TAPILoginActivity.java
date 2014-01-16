@@ -61,7 +61,7 @@ public class TAPILoginActivity extends Activity implements TAPI {
 
 		SharedPreferences sharedPref = PreferenceManager
 				.getDefaultSharedPreferences(this);
-		length = Integer.parseInt(sharedPref.getString("tapi_length", "6"));
+		length = Integer.parseInt(sharedPref.getString("tapi_length", "0"));
 		password = sharedPref.getString("tapi_pw", "");
 		input = new String[length];
 

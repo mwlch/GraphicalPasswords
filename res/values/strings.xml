@@ -47,16 +47,27 @@
     <!-- Open TAPI Strings -->
     <string name="title_activity_tapi">Open TAPI</string>
     <string name="title_activity_tapi_create_password">Open TAPI: Create Password</string>
- 	<string name="title_activity_tapi_login">Open TAPI: Enter Password</string>
- 	<string name="title_dialog_tapi_createpw">Select pass-images</string>
- 	<string name="msg_dialog_tapi_createpw">Please choose your pass-images.\nYour password must contain %d pass-images.</string>
- 	<string name="title_dialog_tapi_rememberpw">Please memorize the sequence of pass-images:</string>
+    <string name="title_activity_tapi_login">Open TAPI: Enter Password</string>
+    <string name="title_dialog_tapi_createpw">Select pass-images</string>
+    <string name="msg_dialog_tapi_createpw">Please choose your pass-images.\nYour password must contain %d pass-images.</string>
+    <string name="title_dialog_tapi_rememberpw">Please memorize the sequence of pass-images:</string>
+
+    <!-- Open UYI Strings -->
+    <string name="title_activity_uyicreate_password">Open UYI: Create Password</string>
+    <string name="title_activity_uyilogin">Open UYI: Enter Password</string>
+    <string name="title_activity_uyi">Open UYI</string>
+    <string name="title_dialog_uyi_createpw">Select pass-images</string>
+    <string name="msg_dialog_uyi_createpw">Please choose your pass-images from the gallery.\nYour password must contain %d pass-images.</string>
+    <string name="msg_dialog_uyi_deleteimage">Would you really like to remove the pass-image?</string>
+    <string name="title_dialog_uyi_rememberpw">Please memorize the set of pass-images:</string>
     
     <!-- Papers -->
     <string name="paper_check_out">Check out our paper:</string>
     <string name="paper_references">REFERENCE</string>
     <string name="paper_pass_go">H. Tao and C. Adams. Pass-Go: A Proposal to Improve the Usability of Graphical Passwords. <i>Int. J. Network Security</i>, 7(2):273–292, 2008.</string>
     <string name="paper_tapi">J. Citty and D. R. Hutchings. TAPI: touch&#8211;screen authentication using partitioned images. Tech. Report 2010&#8211;1, Elon University, 2010.</string>
+    <string name="paper_uyi"> E. Hayashi, R. Dhamija, N. Christin, and A. Perrig. Use Your Illusion: secure authentication usable anywhere. In <i>Proc. SOUPS \'08</i>. ACM, 2008.</string>
     <string name="paper_exploring_designspace">F. Schaub, M. Walch, B. Könings, and M. Weber. Exploring the design space of graphical passwords on smartphones. In <i>Proc. SOUPS \'13</i>. ACM, 2013.</string>
+    <string name="hello_world">Hello world!</string>
     
 </resources>
