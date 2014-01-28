@@ -1,8 +1,6 @@
 # Graphical Passwords
 
-Implementation of some graphical password schemes for android smartphones.
-
-
+As part of a project on graphical passwords on smartphones, we implemented a number of graphical password schemes for Android. 
 We used these implementations for our study in the following paper:
 
 >  Schaub, F., Walch, M., Könings, B., & Weber, M. (2013, July).<br>
@@ -10,28 +8,34 @@ We used these implementations for our study in the following paper:
 >  In Proceedings of the Ninth Symposium on Usable Privacy and Security (p. 11). ACM.<br>
 >  [[PDF]](http://cups.cs.cmu.edu/soups/2013/proceedings/a11_Schaub.pdf)
 
+We provide our implementations to the research and mobile developer communities to facilitate replication of research results and encoruage the use of graphical password schemes.
+
+The different schemes have been implemented according to the respective descriptions in the original papers listed below. Please acknowledge us by citing our SOUPS paper when you make use of our implementations, and cite or and acknowledge the creators when referring to the respective schemes.
+
 ## Graphical Password Schemes
 
-- Open Pass-Go
+### Open Pass-Go
 
-    >  <b>REFERENCE</b><br>
+Android implementation of Pass-Go:
     >  H. Tao and C. Adams.<br> 
     >  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords.<br>
     >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
+	[Pass-Go website](http://passgo.ca/), [PDF](http://passgo.ca/)
 
-- Open TAPI
-
-    >  <b>REFERENCE</b><br>
+### Open TAPI
+Android implementation of TAPI:
     >  J. Citty and D. R. Hutchings.<br> 
     >  TAPI: touch–screen authentication using partitioned images.<br>
     >  Tech. Report 2010–1, Elon University, 2010.
+	[PDF](http://facstaff.elon.edu/dhutchings/papers/citty2010tapi.pdf)
 
-- Open Use Your Illusion (UYI)
-
-    >  <b>REFERENCE</b><br>
+### Open UYI
+Android implementation of Use Your Illusion (UYI):
     >  E. Hayashi, R. Dhamija, N. Christin, and A. Perrig.<br> 
     >  Use Your Illusion: secure authentication usable anywhere.<br>
     >  In <i>Proc. SOUPS '08</i>. ACM, 2008.
+	[DOI](http://dx.doi.org/10.1145/1408664.1408670), [PDF](http://cups.cs.cmu.edu/soups/2008/proceedings/p35Hayashi.pdf)
+	
 
 ## Licence
 
