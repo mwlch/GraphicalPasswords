@@ -17,6 +17,7 @@ The different schemes have been implemented according to the respective descript
 ### Open Pass-Go
 
 Android implementation of Pass-Go:
+
     >  H. Tao and C. Adams.<br> 
     >  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords.<br>
     >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
@@ -24,6 +25,7 @@ Android implementation of Pass-Go:
 
 ### Open TAPI
 Android implementation of TAPI:
+
     >  J. Citty and D. R. Hutchings.<br> 
     >  TAPI: touch–screen authentication using partitioned images.<br>
     >  Tech. Report 2010–1, Elon University, 2010.
@@ -31,6 +33,7 @@ Android implementation of TAPI:
 
 ### Open UYI
 Android implementation of Use Your Illusion (UYI):
+
     >  E. Hayashi, R. Dhamija, N. Christin, and A. Perrig.<br> 
     >  Use Your Illusion: secure authentication usable anywhere.<br>
     >  In <i>Proc. SOUPS '08</i>. ACM, 2008.
