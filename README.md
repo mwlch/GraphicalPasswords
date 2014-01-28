@@ -21,7 +21,7 @@ Android implementation of Pass-Go:
 >  H. Tao and C. Adams.<br> 
 >  Pass-Go: A Proposal to Improve the Usability of Graphical Passwords.<br>
 >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
-[Pass-Go website](http://passgo.ca/), [PDF](http://passgo.ca/)
+[Pass-Go website](http://passgo.ca/), [PDF](http://passgo.ca/ijns-2008-v7-n2-p273-292.pdf)
 
 ### Open TAPI
 Android implementation of TAPI:
