@@ -1,4 +1,9 @@
 # Open MIBA
+
+[![Screenshot: Open MIBA: Create Password](/Screenshots/small/openmiba_create.png?raw=true "Open MIBA: Create Password")](/Screenshots/openmiba_create.png) 
+[![Screenshot: Open MIBA: Memorize Gestures](/Screenshots/small/openmiba_memorize.png?raw=true "Open MIBA: Memorize Gestures")](/Screenshots/openmiba_memorize.png) 
+[![Screenshot: Open MIBA: Enter Password](/Screenshots/small/openmiba_login.png?raw=true "Open MIBA: Enter Password")](/Screenshots/openmiba_login.png) 
+
 This implementation of MIBA is based on:
 
 >  D. Ritter, F. Schaub, M. Walch, and M. Weber.<br>

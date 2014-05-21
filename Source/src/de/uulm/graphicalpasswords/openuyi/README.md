@@ -1,4 +1,9 @@
 # Open UYI
+
+[![Screenshot: Open UYI: Create Password](/Screenshots/small/openuyi_create.png?raw=true "Open UYI: Create Password")](/Screenshots/openuyi_create.png) 
+[![Screenshot: Open UYI: Memorize Pass-Images](/Screenshots/small/openuyi_memorize.png?raw=true "Open UYI: Memorize Pass-Images")](/Screenshots/openuyi_memorize.png) 
+[![Screenshot: Open UYI: Enter Password](/Screenshots/small/openuyi_login.png?raw=true "Open UYI: Enter Password")](/Screenshots/openuyi_login.png)
+
 This implementation of Use Your Illusion (UYI) is based on:
 
 >  E. Hayashi, R. Dhamija, N. Christin, and A. Perrig.<br> 

@@ -1,4 +1,10 @@
 # Open TAPI
+
+[![Screenshot: Open TAPI: Create Password](/Screenshots/small/opentapi_create.png?raw=true "Open TAPI: Create Password")](/Screenshots/opentapi_create.png) 
+[![Screenshot: Open TAPI: Memorize Pass-Images](/Screenshots/small/opentapi_memorize.png?raw=true "Open TAPI: Memorize Pass-Images")](/Screenshots/opentapi_memorize.png) 
+[![Screenshot: Open TAPI: Enter Password](/Screenshots/small/opentapi_login.png?raw=true "Open TAPI: Enter Password")](/Screenshots/opentapi_login.png) 
+
+
 This implementation of TAPI is based on:
 
 >  J. Citty and D. R. Hutchings.<br> 
