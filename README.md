@@ -14,14 +14,14 @@ The different schemes have been implemented according to the respective descript
 
 ## Graphical Password Schemes
 
-### [Open MIBA](src/de/uulm/graphicalpasswords/openmiba/README.md)
+### [Open MIBA](Source/src/de/uulm/graphicalpasswords/openmiba/README.md)
 Android implementation of MIBA:
 >  D. Ritter, F. Schaub, M. Walch, and M. Weber.<br>
 >  MIBA: Multitouch image-based authentication on smartphones.<br>
 >  In <i>Proc. CHI '13 Extended Abstracts</i>. ACM, 2013.
 [PDF](http://www.uni-ulm.de/fileadmin/website_uni_ulm/iui.inst.100/institut/Papers/Prof_Weber/2013-CHI-EA-miba.pdf)
 
-### [Open Pass-Go](src/de/uulm/graphicalpasswords/openpassgo/README.md)
+### [Open Pass-Go](Source/src/de/uulm/graphicalpasswords/openpassgo/README.md)
 Android implementation of Pass-Go:
 
 >  H. Tao and C. Adams.<br> 
@@ -29,7 +29,7 @@ Android implementation of Pass-Go:
 >  <i>Int. J. Network Security</i>, 7(2):273–292, 2008.
 [Pass-Go website](http://passgo.ca/), [PDF](http://passgo.ca/ijns-2008-v7-n2-p273-292.pdf)
 
-### [Open TAPI](src/de/uulm/graphicalpasswords/opentapi/README.md)
+### [Open TAPI](Source/src/de/uulm/graphicalpasswords/opentapi/README.md)
 Android implementation of TAPI:
 
 >  J. Citty and D. R. Hutchings.<br> 
@@ -37,7 +37,7 @@ Android implementation of TAPI:
 >  Tech. Report 2010–1, Elon University, 2010.
 [PDF](http://facstaff.elon.edu/dhutchings/papers/citty2010tapi.pdf)
 
-### [Open UYI](src/de/uulm/graphicalpasswords/openuyi/README.md)
+### [Open UYI](Source/src/de/uulm/graphicalpasswords/openuyi/README.md)
 Android implementation of Use Your Illusion (UYI):
 
 >  E. Hayashi, R. Dhamija, N. Christin, and A. Perrig.<br> 

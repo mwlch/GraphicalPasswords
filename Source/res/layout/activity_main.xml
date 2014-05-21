@@ -1,0 +1,98 @@
+<!--
+  Copyright 2013 Marcel Walch, Florian Schaub
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+  http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/intro" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:text="@string/intro_attention"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/paper"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/paper_exploring_designspace" />
+
+    <TextView
+        android:id="@+id/footer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/paper"
+        android:text="@string/paper_check_out"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/footer"
+        android:layout_below="@id/textView2" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/miba"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startMIBA"
+                android:text="@string/title_activity_miba" />
+            
+            <Button
+                android:id="@+id/passgo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startPassGo"
+                android:text="@string/title_activity_pass_go" />
+
+            <Button
+                android:id="@+id/tapi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startTAPI"
+                android:text="@string/title_activity_tapi" />
+
+            <Button
+                android:id="@+id/uyi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startUYI"
+                android:text="@string/title_activity_uyi" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
