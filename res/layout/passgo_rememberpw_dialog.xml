@@ -22,7 +22,7 @@
     android:stretchColumns="0,1"
     android:gravity="center_horizontal" 
     android:keepScreenOn="true">
-    <de.uulm.graphicalpasswords.passgo.DialogPatternView
+    <de.uulm.graphicalpasswords.openpassgo.DialogPatternView
         android:id="@+id/passgo_rememberpw_patternView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"

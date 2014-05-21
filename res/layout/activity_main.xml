@@ -66,6 +66,13 @@
             android:orientation="vertical" >
 
             <Button
+                android:id="@+id/miba"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="startMIBA"
+                android:text="@string/title_activity_miba" />
+            
+            <Button
                 android:id="@+id/passgo"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

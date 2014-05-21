@@ -30,7 +30,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="@string/paper_pass_go" />
+        android:text="@string/paper_miba" />
 
     <TextView
         android:layout_width="fill_parent"

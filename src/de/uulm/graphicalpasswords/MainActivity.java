@@ -36,21 +36,27 @@ public class MainActivity extends Activity {
 		return true;
 	}
 
+	public void startMIBA(View view) {
+		Intent intent = new Intent(this,
+				de.uulm.graphicalpasswords.openmiba.MIBAActivity.class);
+		startActivity(intent);
+	}
+	
 	public void startPassGo(View view) {
 		Intent intent = new Intent(this,
-				de.uulm.graphicalpasswords.passgo.PassGoActivity.class);
+				de.uulm.graphicalpasswords.openpassgo.PassGoActivity.class);
 		startActivity(intent);
 	}
 
 	public void startTAPI(View view) {
 		Intent intent = new Intent(this,
-				de.uulm.graphicalpasswords.tapi.TAPIActivity.class);
+				de.uulm.graphicalpasswords.opentapi.TAPIActivity.class);
 		startActivity(intent);
 	}
 	
 	public void startUYI(View view) {
 		Intent intent = new Intent(this,
-				de.uulm.graphicalpasswords.uyi.UYIActivity.class);
+				de.uulm.graphicalpasswords.openuyi.UYIActivity.class);
 		startActivity(intent);
 	}
 

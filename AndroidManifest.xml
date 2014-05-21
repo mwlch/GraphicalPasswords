@@ -40,87 +40,115 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.passgo.PassGoActivity"
+            android:name="de.uulm.graphicalpasswords.openmiba.MIBAActivity"
+            android:label="@string/title_activity_miba" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.MainActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.openmiba.MIBACreatePasswordActivity"
+            android:label="@string/title_activity_miba_create_password" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.openmiba.MIBAActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.openmiba.MIBASettingsActivity"
+            android:label="@string/title_activity_miba_settings" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.openmiba.MIBAActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.openmiba.MIBALoginActivity"
+            android:label="@string/title_activity_miba_login" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.uulm.graphicalpasswords.openmiba.MIBAActivity" />
+        </activity>
+        <activity
+            android:name="de.uulm.graphicalpasswords.openpassgo.PassGoActivity"
             android:label="@string/title_activity_pass_go" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.MainActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.passgo.PassGoCreatePasswordActivity"
+            android:name="de.uulm.graphicalpasswords.openpassgo.PassGoCreatePasswordActivity"
             android:label="@string/title_activity_pass_go_create_password" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.passgo.PassGoActivity" />
+                android:value="de.uulm.graphicalpasswords.openpassgo.PassGoActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.passgo.PassGoSettingsActivity"
+            android:name="de.uulm.graphicalpasswords.openpassgo.PassGoSettingsActivity"
             android:label="@string/title_activity_pass_go_settings" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.passgo.PassGoActivity" />
+                android:value="de.uulm.graphicalpasswords.openpassgo.PassGoActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.passgo.PassGoLoginActivity"
+            android:name="de.uulm.graphicalpasswords.openpassgo.PassGoLoginActivity"
             android:label="@string/title_activity_pass_go_login" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.passgo.PassGoActivity" />
+                android:value="de.uulm.graphicalpasswords.openpassgo.PassGoActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.tapi.TAPIActivity"
+            android:name="de.uulm.graphicalpasswords.opentapi.TAPIActivity"
             android:label="@string/title_activity_tapi" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.MainActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.tapi.TAPICreatePasswordActivity"
+            android:name="de.uulm.graphicalpasswords.opentapi.TAPICreatePasswordActivity"
             android:label="@string/title_activity_tapi_create_password" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+                android:value="de.uulm.graphicalpasswords.opentapi.TAPIActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.tapi.TAPILoginActivity"
+            android:name="de.uulm.graphicalpasswords.opentapi.TAPILoginActivity"
             android:label="@string/title_activity_tapi_login" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+                android:value="de.uulm.graphicalpasswords.opentapi.TAPIActivity" />
         </activity>
-        <activity android:name="de.uulm.graphicalpasswords.tapi.TAPISettingsActivity" >
+        <activity android:name="de.uulm.graphicalpasswords.opentapi.TAPISettingsActivity" >
             android:label="@string/title_activity_tapi_settings" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.tapi.TAPIActivity" />
+                android:value="de.uulm.graphicalpasswords.opentapi.TAPIActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.uyi.UYIActivity"
+            android:name="de.uulm.graphicalpasswords.openuyi.UYIActivity"
             android:label="@string/title_activity_uyi" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="de.uulm.graphicalpasswords.MainActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.uyi.UYICreatePasswordActivity"
+            android:name="de.uulm.graphicalpasswords.openuyi.UYICreatePasswordActivity"
             android:label="@string/title_activity_uyicreate_password" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
+                android:value="de.uulm.graphicalpasswords.openuyi.UYIActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.uyi.UYILoginActivity"
+            android:name="de.uulm.graphicalpasswords.openuyi.UYILoginActivity"
             android:label="@string/title_activity_uyilogin" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
+                android:value="de.uulm.graphicalpasswords.openuyi.UYIActivity" />
         </activity>
         <activity
-            android:name="de.uulm.graphicalpasswords.uyi.UYISettingsActivity"
+            android:name="de.uulm.graphicalpasswords.openuyi.UYISettingsActivity"
             android:label="@string/title_activity_uyi_settings" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.uulm.graphicalpasswords.uyi.UYIActivity" />
+                android:value="de.uulm.graphicalpasswords.openuyi.UYIActivity" />
         </activity>
     </application>
 
